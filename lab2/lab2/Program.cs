@@ -1,4 +1,4 @@
-﻿// 
+// 
 
 class Person
 {
@@ -27,5 +27,15 @@ class Employes : Person
 
 }
 
-Employes em1 =  new Employes("John", 1);
-Person per = em1;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Employes em1 =  new Employes("John", 15);
+        Person per = em1;
+        Console.WriteLine("xd");
+        per.introduceYourself();
+        
+    }
+}
