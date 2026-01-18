@@ -34,7 +34,6 @@ class Program
     {
         Employes em1 =  new Employes("John", 15);
         Person per = em1;
-        Console.WriteLine("xd");
         per.introduceYourself();
         
     }
